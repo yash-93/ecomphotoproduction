@@ -1,6 +1,7 @@
 <html>
   <head>
     <title>E-com Photo Production</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
     <link
       rel="stylesheet"
@@ -9,7 +10,7 @@
   </head>
   <body>
     <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-lg bg-white fixed-top">
+    <nav class="navbar navbar-expand-md bg-white fixed-top">
       <a class="navbar-brand" href="index.html">E-com Photo Production</a>
       <button
         class="navbar-toggler collapsed custom-toggler"
@@ -35,7 +36,7 @@
 
     <!-- background -->
     <div id="backg">
-      <div class="row">
+      <div class="row" id="backg-row1">
         <div class="col-lg-1 col-md-1"></div>
         <div class="col-lg-4 col-md-4">
           <h2>
@@ -51,15 +52,15 @@
       </div>
     </div>
 
-    <!-- content -->
-    <div id="about_content">
+    <!-- About us -->
+    <section id="about_content">
       <div class="container">
         <div class="row">
-          <div class="col-lg-5"></div>
-          <div class="col-lg-2">
+          <div class="col-lg-4"></div>
+          <div class="col-lg-4">
             <label>About Us</label>
           </div>
-          <div class="col-lg-5"></div>
+          <div class="col-lg-4"></div>
         </div>
         <div class="row" id="about_details1">
           <div class="col-lg-3"></div>
@@ -89,7 +90,72 @@
           <div class="col-lg-1 col-md-1"></div>
         </div>
       </div>
-    </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5"></div>
+          <div class="col-lg-2">
+            <label>Services</label>
+          </div>
+          <div class="col-lg-5"></div>
+        </div>
+        <br />
+        <div class="row">
+          <div class="col-lg-3" id="service1">
+            Image Editing
+          </div>
+        </div>
+        <div id="service1_subservices">
+          <div class="row">
+            <div class="col-lg-1"></div>
+            <div class="col-lg-4" style="padding-top: 2%;">
+              <ul>
+                <li>Product photo editing</li>
+                <li>Fashion photo editing</li>
+                <li>Apparel photo editing</li>
+                <li>Jewellery photo editing</li>
+                <li>Ghost mannequin editing services</li>
+                <li>Stock photo editing</li>
+                <li>Photo clipping Path</li>
+                <li>Photo background removal</li>
+                <li>Photo Masking Services</li>
+                <li>Image enhancement</li>
+                <li>Retouching Services</li>
+                <li>Image Cropping/Resizing</li>
+                <li>Colorization Services</li>
+                <li>Portrait retouching</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <br />
+        <div class="row">
+          <div class="col-lg-3" id="service2">
+            Photography
+          </div>
+        </div>
+        <div id="service2_subservices">
+          <div class="row">
+            <div class="col-lg-1"></div>
+            <div class="col-lg-4" style="padding-top: 2%;">
+              <ul>
+                <li>Fashion Photography</li>
+                <li>Product Photography</li>
+                <li>E-commerce Photography</li>
+                <li>Jewellery photo editing</li>
+                <li>Jewellery Photography</li>
+                <li>Interior Photography</li>
+                <li>Lingerie Photography</li>
+                <li>Print Catalog Photography</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- footer -->
     <footer class="page-footer font-small pt-4">
@@ -139,7 +205,7 @@
       </div>
 
       <!-- Copyright -->
-      <div class="footer-copyright text-center py-3">
+      <div class="footer-copyright text-center py-3 copyright">
         © 2020 Copyright:
         <a href="https://ecomphotoproduction.in/">ecomphotoproduction.in</a>
       </div>
