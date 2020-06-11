@@ -1,0 +1,68 @@
+.container {
+  margin-top: 5%;
+}
+
+nav a,
+nav button {
+  color: #063666;
+  font-family: "Open Sans", sans-serif;
+}
+
+#backg {
+  background: url("../static/SVG/background.svg") no-repeat;
+  background-size: cover;
+  height: 75vh;
+  padding-top: 12.5%;
+  overflow-x: hidden;
+}
+
+#backg h2 {
+  color: #ffffff;
+  font-size: 50px;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+}
+
+#about_content {
+  text-align: center;
+  padding-bottom: 5%;
+}
+
+#about_content label {
+  color: #283d50;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+}
+
+#about_details1 p,
+#about_details2 p {
+  color: #556877;
+  margin: auto;
+  font-size: 15px;
+  letter-spacing: 0.1em;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(1, 53, 109, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+footer {
+  background-color: #014a99;
+  color: white;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+footer a:hover {
+  color: lightblue;
+  text-decoration: none;
+}
+
+footer p {
+  width: 75%;
+  font-size: 12px;
+}
