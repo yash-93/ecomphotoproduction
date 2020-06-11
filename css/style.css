@@ -6,6 +6,7 @@ nav a,
 nav button {
   color: #063666;
   font-family: "Open Sans", sans-serif;
+  cursor: pointer;
 }
 
 #backg {
@@ -26,7 +27,6 @@ nav button {
 #about_content,
 #services {
   text-align: center;
-  padding-bottom: 5%;
 }
 
 #about_content label,
@@ -71,6 +71,14 @@ footer p {
 
 .copyright {
   background-color: #004289;
+}
+
+#services {
+  padding-bottom: 50px;
+}
+
+#services li {
+  letter-spacing: 0.1em;
 }
 
 #service1,
