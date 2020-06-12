@@ -1,7 +1,7 @@
 $("#about_link").click(function () {
   $("html,body").animate(
     {
-      scrollTop: $("#about_content").offset().top - 50,
+      scrollTop: $("#about_content").offset().top - 95,
     },
     "slow"
   );
@@ -10,7 +10,7 @@ $("#about_link").click(function () {
 $("#services_link").click(function () {
   $("html,body").animate(
     {
-      scrollTop: $("#services").offset().top - 50,
+      scrollTop: $("#services").offset().top - 95,
     },
     "slow"
   );
