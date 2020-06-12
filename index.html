@@ -11,6 +11,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/mhayes-twentytwenty/1.0.0/css/twentytwenty.min.css"
     />
+    <script src="https://kit.fontawesome.com/e5f192106a.js"></script>
   </head>
   <body>
     <!-- NAVBAR -->
@@ -29,15 +30,10 @@
             <a class="nav-link" id="about_link">About</a>
           </li>
           <li class="nav-item">
-            <a
-              class="nav-link"
-              id="services_link"
-              onclick="scrollUpp('services')"
-              >Services</a
-            >
+            <a class="nav-link" id="services_link">Services</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link">Contact Us</a>
+            <a class="nav-link" id="contactus_link">Contact Us</a>
           </li>
         </ul>
       </div>
@@ -196,7 +192,7 @@
       <div class="row">
         <div class="col-lg-4 col-md-4"></div>
         <div class="col-lg-4 col-md-4">
-          <label>Work Samples</label>
+          <label>Editing 0Work Samples</label>
         </div>
         <div class="col-lg-4 col-md-4"></div>
       </div>
@@ -205,22 +201,22 @@
         <div class="col-lg-1"></div>
         <div class="col-lg-3 col-md-3">
           <div id="slider2">
-            <img src="static/images//final/1a.jpg" />
-            <img src="static/images/final/1b.jpg" />
+            <img src="static/images/1a.jpg" />
+            <img src="static/images/1b.jpg" />
           </div>
         </div>
         <div class="col-lg-1"></div>
         <div class="col-lg-3 col-md-3">
           <div id="slider3">
-            <img src="static/images//final/3a.jpg" />
-            <img src="static/images/final/3b.jpg" />
+            <img src="static/images/2a.jpg" />
+            <img src="static/images/2b.jpg" />
           </div>
         </div>
         <div class="col-lg-1"></div>
         <div class="col-lg-3 col-md-3">
           <div id="slider4">
-            <img src="static/images/final/4a.jpg" />
-            <img src="static/images/final/4b.jpg" />
+            <img src="static/images/3a.jpg" />
+            <img src="static/images/3b.jpg" />
           </div>
         </div>
       </div>
@@ -241,11 +237,67 @@
     </section>
 
     <!-- Contact Us -->
-    <section id="contactus">
-      <div class="container">
-        <div class="row"></div>
+    <section class="container text-center" id="contactus">
+      <div class="row">
+        <div class="col-lg-4 col-md-4"></div>
+        <div class="col-lg-4 col-md-4">
+          <label>Contact Us</label>
+        </div>
+        <div class="col-lg-4 col-md-4"></div>
+      </div>
+      <br />
+      <br />
+      <div class="row">
+        <div
+          class="address col-lg-4 col-md-4 col-sm-12 col-10"
+          style="height: fit-content;"
+        >
+          <div class="m-auto imgsetting">
+            <i class="fas fa-home fa-3x text-white"></i>
+          </div>
+          <br />
+          <div id="margin">
+            <h3>Address</h3>
+            <span class="text-secondary"
+              >9-Pratap Enclave, Mohan Garden,<br />Uttam Nagar,<br />New
+              Delhi-110059
+            </span>
+          </div>
+        </div>
+        <div
+          class="phone col-lg-4 col-md-4 col-sm-12 col-10"
+          style="height: fit-content;"
+        >
+          <div class="m-auto imgsetting">
+            <i class="fas fa-phone fa-3x text-white"></i>
+          </div>
+          <br />
+          <div id="margin">
+            <h3>Phone</h3>
+            <span class="text-secondary">
+              +91-9811505987<br />
+              +91-9811505987<br />
+            </span>
+          </div>
+        </div>
+        <div
+          class="email col-lg-4 col-md-4 col-sm-12 col-10"
+          style="height: fit-content;"
+        >
+          <div class="m-auto imgsetting">
+            <i class="fas fa-envelope fa-3x text-white"></i>
+          </div>
+          <br />
+          <div id="margin" data-aos="fade-up" data-aos-duration="1000">
+            <h3>Email</h3>
+            <span class="text-secondary">ecomphotoproduction@gmail.com</span>
+          </div>
+        </div>
       </div>
     </section>
+    <br />
+    <br />
+    <br />
 
     <!-- footer -->
     <footer class="page-footer font-small pt-4">
@@ -303,7 +355,6 @@
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-    <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mhayes-twentytwenty/1.0.0/js/jquery.event.move.js"></script>

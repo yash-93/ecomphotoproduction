@@ -11,7 +11,15 @@ $("#services_link").click(function () {
   $("html,body").animate(
     {
       scrollTop: $("#services").offset().top - 50,
-      // scrollTop: $("#services").height(),
+    },
+    "slow"
+  );
+});
+
+$("#contactus_link").click(function () {
+  $("html,body").animate(
+    {
+      scrollTop: $("#contactus").offset().top - 50,
     },
     "slow"
   );
