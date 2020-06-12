@@ -7,6 +7,10 @@
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/mhayes-twentytwenty/1.0.0/css/twentytwenty.min.css"
+    />
   </head>
   <body>
     <!-- NAVBAR -->
@@ -53,7 +57,12 @@
           </h2>
         </div>
         <div class="col-lg-1 col-md-1"></div>
-        <div class="col-lg-4 col-md-4"></div>
+        <div class="col-lg-4 col-md-4">
+          <div id="slider1">
+            <img src="static/images//final/2a.jpg" />
+            <img src="static/images/final/2b.jpg" />
+          </div>
+        </div>
       </div>
     </div>
 
@@ -162,6 +171,42 @@
       </div>
     </section>
 
+    <!-- Our Work -->
+    <section id="ourwork" class="container-fluid">
+      <br />
+      <br />
+      <div class="row">
+        <div class="col-lg-2"></div>
+        <div class="col-lg-4 col-md-4">
+          <div id="slider2">
+            <img src="static/images//final/1a.jpg" />
+            <img src="static/images/final/1b.jpg" />
+          </div>
+        </div>
+        <div class="col-lg-1"></div>
+        <div class="col-lg-4 col-md-4">
+          <div id="slider3">
+            <img src="static/images//final/3a.jpg" />
+            <img src="static/images/final/3b.jpg" />
+          </div>
+        </div>
+      </div>
+      <br />
+      <br />
+      <div class="row">
+        <div class="col-lg-4 col-md-4"></div>
+        <div class="col-lg-4 col-md-4">
+          <div id="slider4">
+            <img src="static/images/final/4a.jpg" />
+            <img src="static/images/final/4b.jpg" />
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4"></div>
+      </div>
+      <br />
+      <br />
+    </section>
+
     <!-- footer -->
     <footer class="page-footer font-small pt-4">
       <div class="container-fluid text-center text-md-left">
@@ -221,6 +266,22 @@
     <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mhayes-twentytwenty/1.0.0/js/jquery.event.move.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mhayes-twentytwenty/1.0.0/js/jquery.twentytwenty.min.js"></script>
     <script src="js/app.js"></script>
+    <script>
+      $(function () {
+        $("#slider1").twentytwenty();
+      });
+      $(function () {
+        $("#slider2").twentytwenty();
+      });
+      $(function () {
+        $("#slider3").twentytwenty();
+      });
+      $(function () {
+        $("#slider4").twentytwenty();
+      });
+    </script>
   </body>
 </html>
