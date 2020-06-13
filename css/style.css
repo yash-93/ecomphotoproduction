@@ -1,3 +1,7 @@
+body {
+  overflow-x: hidden;
+}
+
 .container {
   margin-top: 5%;
 }
@@ -154,4 +158,109 @@ footer p {
 }
 .imgsetting i {
   margin-top: 25%;
+}
+
+@media (max-width: 575.98px) {
+  #backg {
+    height: 60vh;
+  }
+
+  #backg h2 {
+    font-size: 30px;
+    font-weight: 500;
+    padding-left: 15%;
+    margin-top: 12%;
+  }
+
+  #backg img {
+    display: none;
+  }
+
+  .ourworkelements {
+    padding-bottom: 40px;
+  }
+
+  .address,
+  .phone {
+    padding-bottom: 5%;
+  }
+
+  .contactelements {
+    padding-left: 15%;
+  }
+
+  footer p {
+    padding-left: 25%;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  #backg {
+    height: 60vh;
+  }
+
+  #backg h2 {
+    font-size: 30px;
+    font-weight: 500;
+    padding-left: 25%;
+    margin-top: 12%;
+  }
+
+  #backg img {
+    display: none;
+  }
+
+  .ourworkelements {
+    padding-bottom: 40px;
+  }
+
+  .address,
+  .phone {
+    padding-bottom: 5%;
+  }
+
+  footer p {
+    padding-left: 25%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  #backg {
+    height: 75vh;
+  }
+
+  #backg h2 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 20%;
+  }
+
+  #backg img {
+    height: 400;
+    width: 400;
+  }
+
+  .address,
+  .phone {
+    padding-bottom: 5%;
+  }
+
+  .ourworkelements {
+    padding-bottom: 40px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  #backg h2 {
+    font-size: 35px;
+    margin-top: 20%;
+  }
+
+  #backg img {
+    /* height: 400;
+    width: 400; */
+  }
+}
+
+@media (min-width: 1200px) {
 }
