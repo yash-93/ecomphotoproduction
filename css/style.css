@@ -15,13 +15,12 @@ nav button {
 }
 
 #backg {
-  background: url("../static/SVG/SVG//Asset\ 1.svg") no-repeat;
+  background: url("../static/SVG/background.svg") no-repeat;
   background-size: cover;
   height: 85vh;
   padding-top: 10%;
   overflow-x: hidden;
   overflow-y: hidden;
-  border: 1px solid;
 }
 
 #backg h2 {

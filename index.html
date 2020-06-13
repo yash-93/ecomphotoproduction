@@ -11,6 +11,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/mhayes-twentytwenty/1.0.0/css/twentytwenty.min.css"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <script src="https://kit.fontawesome.com/e5f192106a.js"></script>
   </head>
   <body>
@@ -48,7 +49,7 @@
     <div id="backg">
       <div class="row" id="backg-row1">
         <div class="col-lg-1 col-md-1"></div>
-        <div class="col-lg-5 col-md-5">
+        <div class="col-lg-5 col-md-5" data-aos="fade-right">
           <h2>
             We provide
             <br />
@@ -57,15 +58,13 @@
             editing services!
           </h2>
         </div>
-        <div class="col-lg-5 col-md-5 text-center">
-          <div>
-            <img
-              src="static/images/kisspng-camera-lens-light-photography-5afb83f9e85997.8984514215264327619517.png"
-              alt=""
-              height="500"
-              width="500"
-            />
-          </div>
+        <div class="col-lg-5 col-md-5 text-center" data-aos="fade-up">
+          <img
+            src="static/images/kisspng-camera-lens-light-photography-5afb83f9e85997.8984514215264327619517.png"
+            alt=""
+            height="500"
+            width="500"
+          />
           <!-- <div id="slider1">
             <img src="static/images//final/2a.jpg" />
             <img src="static/images/final/2b.jpg" />
@@ -79,14 +78,14 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-4"></div>
-          <div class="col-lg-4">
+          <div class="col-lg-4" data-aos="fade-down">
             <label>About Us</label>
           </div>
           <div class="col-lg-4"></div>
         </div>
         <div class="row" id="about_details1">
           <div class="col-lg-3"></div>
-          <div class="col-lg-6">
+          <div class="col-lg-6" data-aos="zoom-out">
             <p>
               E-com Photo Production is one of the leading photography agency in
               Delhi dealing in commercial photography assignments which
@@ -100,7 +99,7 @@
         <br />
         <div class="row" id="about_details2">
           <div class="col-lg-1 col-md-1"></div>
-          <div class="col-lg-10 col-md-10">
+          <div class="col-lg-10 col-md-10" data-aos="zoom-out">
             <p>
               We are a team of some of the best professional photographers in
               Delhi, Fashion photography, stylists, designers, makeup artists
@@ -120,7 +119,7 @@
         <br />
         <div class="row">
           <div class="col-lg-5"></div>
-          <div class="col-lg-2">
+          <div class="col-lg-2" data-aos="fade-down">
             <label>Services</label>
           </div>
           <div class="col-lg-5"></div>
@@ -128,10 +127,15 @@
         <br />
         <div class="row">
           <div class="col-lg-1"></div>
-          <div class="col-lg-4" id="service1">
+          <div class="col-lg-4" id="service1" data-aos="fade-right">
             <label>Image Editing</label>
             <br />
-            <div style="padding-top: 2%;" id="service1_subservices">
+            <div
+              style="padding-top: 2%;"
+              id="service1_subservices"
+              data-aos="fade-right"
+              data-aos-duration="1000"
+            >
               <ul>
                 <li>Product photo editing</li>
                 <li>Fashion photo editing</li>
@@ -151,10 +155,15 @@
             </div>
           </div>
           <div class="col-lg-2"></div>
-          <div class="col-lg-4" id="service2">
+          <div class="col-lg-4" id="service2" data-aos="fade-left">
             <label>Photography</label>
             <br />
-            <div style="padding-top: 2%;" id="service2_subservices">
+            <div
+              style="padding-top: 2%;"
+              id="service2_subservices"
+              data-aos="fade-left"
+              data-aos-duration="1000"
+            >
               <ul>
                 <li>Fashion Photography</li>
                 <li>Product Photography</li>
@@ -208,7 +217,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-3 col-md-3 col-sm-12"></div>
-          <div class="col-lg-6 col-md-6">
+          <div class="col-lg-6 col-md-6" data-aos="fade-down">
             <label>Editing Work Samples</label>
           </div>
           <div class="col-lg-3 col-md-3"></div>
@@ -216,14 +225,14 @@
         <br /><br /><br />
         <div class="row">
           <div class="col-lg-3">
-            <div id="slider2" class="m-auto">
+            <div id="slider2" class="m-auto" data-aos="flip-right">
               <img src="static/images/1a.jpg" height="300" width="300" alt="" />
               <img src="static/images/1b.jpg" height="300" width="300" alt="" />
             </div>
           </div>
           <div class="col-lg-1"></div>
           <div class="col-lg-3">
-            <div id="slider3" class="m-auto">
+            <div id="slider3" class="m-auto" data-aos="flip-right">
               <img
                 src="static/images/jewellry-a.png"
                 height="300"
@@ -238,7 +247,7 @@
           </div>
           <div class="col-lg-1"></div>
           <div class="col-lg-3">
-            <div id="slider4" class="m-auto">
+            <div id="slider4" class="m-auto" data-aos="flip-right">
               <img src="static/images/3a.jpg" height="300" width="300" alt="" />
               <img src="static/images/3b.jpg" height="300" width="300" alt="" />
             </div>
@@ -275,7 +284,7 @@
     <section class="container text-center" id="contactus">
       <div class="row">
         <div class="col-lg-4 col-md-4"></div>
-        <div class="col-lg-4 col-md-4">
+        <div class="col-lg-4 col-md-4" data-aos="fade-down">
           <label>Contact Us</label>
         </div>
         <div class="col-lg-4 col-md-4"></div>
@@ -287,11 +296,11 @@
           class="address col-lg-4 col-md-4 col-sm-12 col-10"
           style="height: fit-content;"
         >
-          <div class="m-auto imgsetting">
+          <div class="m-auto imgsetting" data-aos="zoom-in">
             <i class="fas fa-home fa-3x text-white"></i>
           </div>
           <br />
-          <div id="margin">
+          <div id="margin" data-aos="fade-up" data-aos-duration="500">
             <h3>Address</h3>
             <span class="text-secondary"
               >9-Pratap Enclave, Mohan Garden,<br />Uttam Nagar,<br />New
@@ -303,11 +312,11 @@
           class="phone col-lg-4 col-md-4 col-sm-12 col-10"
           style="height: fit-content;"
         >
-          <div class="m-auto imgsetting">
+          <div class="m-auto imgsetting" data-aos="zoom-in">
             <i class="fas fa-phone fa-3x text-white"></i>
           </div>
           <br />
-          <div id="margin">
+          <div id="margin" data-aos="fade-up" data-aos-duration="500">
             <h3>Phone</h3>
             <span class="text-secondary"
               >Rohit Kheralia: +91-9811505987<br />
@@ -318,11 +327,11 @@
           class="email col-lg-4 col-md-4 col-sm-12 col-10"
           style="height: fit-content;"
         >
-          <div class="m-auto imgsetting">
+          <div class="m-auto imgsetting" data-aos="zoom-in">
             <i class="fas fa-envelope fa-3x text-white"></i>
           </div>
           <br />
-          <div id="margin" data-aos="fade-up" data-aos-duration="1000">
+          <div id="margin" data-aos="fade-up" data-aos-duration="500">
             <h3>Email</h3>
             <span class="text-secondary">ecomphotoproduction@gmail.com</span>
           </div>
@@ -393,8 +402,10 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mhayes-twentytwenty/1.0.0/js/jquery.event.move.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mhayes-twentytwenty/1.0.0/js/jquery.twentytwenty.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="js/app.js"></script>
     <script>
+      AOS.init();
       $(function () {
         $("#slider1").twentytwenty();
       });
