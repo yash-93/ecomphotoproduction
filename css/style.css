@@ -1,4 +1,7 @@
+html,
 body {
+  width: 100%;
+  margin: 0px;
   overflow-x: hidden;
 }
 
@@ -19,6 +22,7 @@ nav button {
 }
 
 #backg {
+  width: 100%;
   background: url("../static/SVG/background.svg") no-repeat;
   background-size: cover;
   height: 85vh;
@@ -95,6 +99,7 @@ footer p {
 #services {
   padding-bottom: 50px;
   text-align: center;
+  width: 100vw;
 }
 
 #services li {
@@ -160,7 +165,99 @@ footer p {
   margin-top: 25%;
 }
 
-@media (max-width: 575.98px) {
+@media (max-width: 325px) {
+  nav a img {
+    width: 60;
+  }
+
+  nav a label {
+    font-size: 0.9rem;
+  }
+
+  #backg {
+    height: 65vh;
+  }
+
+  #backg h2 {
+    font-size: 30px;
+    font-weight: 500;
+    padding-left: 15%;
+    margin-top: 12%;
+  }
+
+  #backg img {
+    display: none;
+  }
+
+  .ourworkelements {
+    padding-bottom: 40px;
+  }
+
+  .address,
+  .phone {
+    padding-bottom: 5%;
+  }
+
+  .contactelements {
+    padding-left: 15%;
+  }
+
+  footer p {
+    padding-left: 25%;
+  }
+}
+
+@media (min-width: 326px) and (max-width: 363px) {
+  nav a img {
+    width: 60;
+  }
+
+  nav a label {
+    font-size: 0.9rem;
+  }
+
+  #backg {
+    height: 60vh;
+  }
+
+  #backg h2 {
+    font-size: 30px;
+    font-weight: 500;
+    padding-left: 15%;
+    margin-top: 12%;
+  }
+
+  #backg img {
+    display: none;
+  }
+
+  .ourworkelements {
+    padding-bottom: 40px;
+  }
+
+  .address,
+  .phone {
+    padding-bottom: 5%;
+  }
+
+  .contactelements {
+    padding-left: 15%;
+  }
+
+  footer p {
+    padding-left: 25%;
+  }
+}
+
+@media (min-width: 364px) and (max-width: 575.98px) {
+  nav a img {
+    width: 70;
+  }
+
+  nav a label {
+    font-size: 1rem;
+  }
+
   #backg {
     height: 60vh;
   }
@@ -254,11 +351,6 @@ footer p {
   #backg h2 {
     font-size: 35px;
     margin-top: 20%;
-  }
-
-  #backg img {
-    /* height: 400;
-    width: 400; */
   }
 }
 
