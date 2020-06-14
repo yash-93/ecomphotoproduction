@@ -68,12 +68,15 @@ function scrollToAbout() {
 
 function scrollToServices() {
   var element = document.querySelector("#services");
-  element.scrollIntoView({ behavior: "smooth", block: "end", block: "center" });
+  element.scrollIntoView({
+    behavior: "smooth",
+    block: "start",
+  });
 }
 
 function scrollToContact() {
   var element = document.querySelector("#contactus");
-  element.scrollIntoView({ behavior: "smooth", block: "end", block: "center" });
+  element.scrollIntoView({ behavior: "smooth", block: "start" });
 }
 
 function scrollToEditingSamples() {
