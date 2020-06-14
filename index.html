@@ -33,13 +33,13 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" id="about_link">About</a>
+            <a class="nav-link" id="about_link" onclick="scrollToAbout()">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" id="services_link">Services</a>
+            <a class="nav-link" id="services_link" onclick="scrollToServices()">Services</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" id="contactus_link">Contact Us</a>
+            <a class="nav-link" id="contactus_link" onclick="scrollToContact()">Contact Us</a>
           </li>
         </ul>
       </div>
@@ -309,14 +309,14 @@
             <h5 class="text-uppercase">Site</h5>
 
             <ul class="list-unstyled">
-              <li>
-                <a href="#" id="about_linkf">About Us</a>
+              <li >
+                <a onclick="scrollToAbout()">About Us</a>
               </li>
               <li>
-                <a href="#" id="services_linkf">Services</a>
+                <a onclick="scrollToServices()" id="services_linkf">Services</a>
               </li>
               <li>
-                <a href="#" id="contactus_linkf">Contact Us</a>
+                <a onclick="scrollToContact()" id="contactus_linkf">Contact Us</a>
               </li>
             </ul>
           </div>
@@ -326,10 +326,10 @@
 
             <ul class="list-unstyled">
               <li>
-                <a href="#" id="photographyworksamples">Photography Services</a>
+                <a id="photographyworksamples">Photography Services</a>
               </li>
               <li>
-                <a href="#" id="editingworksamples">Image Editing Services</a>
+                <a onclick="scrollToEditingSamples()" id="editingworksamples">Image Editing Services</a>
               </li>
             </ul>
           </div>
