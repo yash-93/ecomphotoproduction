@@ -168,6 +168,45 @@ footer p {
   margin-top: 25%;
 }
 
+#queryform {
+  /* padding-bottom: 5%; */
+  display: none;
+  height: 0px;
+  transition: height 300ms;
+}
+
+#queryform.is-active {
+  display: block;
+  height: fit-content;
+  padding-bottom: 5%;
+}
+
+#queryheading {
+  padding-bottom: 7%;
+}
+
+#queryheading label,
+i {
+  font-size: 2rem;
+}
+
+#queryheading i {
+  cursor: pointer;
+  margin-left: -5%;
+  font-size: 3rem;
+  position: absolute;
+  animation: move 1s infinite;
+}
+
+@keyframes move {
+  from {
+    margin-top: 0px;
+  }
+  to {
+    margin-top: 25px;
+  }
+}
+
 @media (max-width: 325px) {
   nav a img {
     width: 60;
