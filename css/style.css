@@ -244,6 +244,10 @@ i {
     padding-left: 15%;
   }
 
+  #queryheading {
+    padding-bottom: 25%;
+  }
+
   footer p {
     padding-left: 25%;
   }
@@ -284,6 +288,10 @@ i {
 
   .contactelements {
     padding-left: 15%;
+  }
+
+  #queryheading {
+    padding-bottom: 25%;
   }
 
   footer p {
@@ -328,6 +336,10 @@ i {
     padding-left: 15%;
   }
 
+  #queryheading {
+    padding-bottom: 20%;
+  }
+
   footer p {
     padding-left: 25%;
   }
@@ -356,6 +368,10 @@ i {
   .address,
   .phone {
     padding-bottom: 5%;
+  }
+
+  #queryheading {
+    padding-bottom: 20%;
   }
 
   footer p {
@@ -387,12 +403,20 @@ i {
   .ourworkelements {
     padding-bottom: 40px;
   }
+
+  #queryheading {
+    padding-bottom: 15%;
+  }
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
   #backg h2 {
     font-size: 35px;
     margin-top: 20%;
+  }
+
+  #queryheading {
+    padding-bottom: 10%;
   }
 }
 
