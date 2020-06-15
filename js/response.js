@@ -1,5 +1,32 @@
+// function scrollToServices_response() {
+//   window.location.href = "http://localhost/Website/index.html#services";
+//   var element = document.querySelector("#services");
+//   element.scrollIntoView({
+//     behavior: "smooth",
+//     block: "start",
+//   });
+// }
+
+// function scrollToAbout_response() {
+//   window.location.href = "http://localhost/Website/index.html#about_content";
+//   var element = document.querySelector("#services");
+//   element.scrollIntoView({
+//     behavior: "smooth",
+//     block: "start",
+//   });
+// }
+
+// function scrollToContact_response() {
+//   window.location.href = "http://localhost/Website/index.html#contactus";
+//   var element = document.querySelector("#services");
+//   element.scrollIntoView({
+//     behavior: "smooth",
+//     block: "start",
+//   });
+// }
+
 function scrollToServices_response() {
-  window.location.href = "http://localhost/Website/index.html#services";
+  window.location.href = "https://ecomphotoproduction.in/index.html#services";
   var element = document.querySelector("#services");
   element.scrollIntoView({
     behavior: "smooth",
@@ -8,7 +35,8 @@ function scrollToServices_response() {
 }
 
 function scrollToAbout_response() {
-  window.location.href = "http://localhost/Website/index.html#about_content";
+  window.location.href =
+    "https://ecomphotoproduction.in/index.html#about_content";
   var element = document.querySelector("#services");
   element.scrollIntoView({
     behavior: "smooth",
@@ -17,7 +45,7 @@ function scrollToAbout_response() {
 }
 
 function scrollToContact_response() {
-  window.location.href = "http://localhost/Website/index.html#contactus";
+  window.location.href = "https://ecomphotoproduction.in/index.html#contactus";
   var element = document.querySelector("#services");
   element.scrollIntoView({
     behavior: "smooth",
