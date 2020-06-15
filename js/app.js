@@ -16,11 +16,6 @@ function scrollToContact() {
   element.scrollIntoView({ behavior: "smooth", block: "start" });
 }
 
-function scrollToEditingSamples() {
-  var element = document.querySelector("#ourwork");
-  element.scrollIntoView({ behavior: "smooth", block: "end", block: "center" });
-}
-
 document.getElementById("downArrow").addEventListener("click", function () {
   document.getElementById("queryform").classList.toggle("is-active");
 });

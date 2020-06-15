@@ -1,0 +1,146 @@
+<html>
+  <head>
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="static/images/logo.png"
+    />
+    <title>E-com Photo Production</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/response.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
+    <script src="https://kit.fontawesome.com/e5f192106a.js"></script>
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-sm bg-white fixed-top">
+      <!-- <a class="navbar-brand" href="index.html">E-com Photo Production</a> -->
+      <a class="navbar-brand" href="index.html">
+        <img src="static/images/logo.png" alt="" width="80" />
+        <label>E-com Photo Production</label>
+      </a>
+
+      <button
+        class="navbar-toggler collapsed custom-toggler"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              id="about_link"
+              onclick="scrollToAbout_response()"
+              >About</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              id="services_link"
+              onclick="scrollToServices_response()"
+              >Services</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              id="contactus_link"
+              onclick="scrollToContact_response()"
+              >Contact Us</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <section class="container text-center" id="response">
+      <div class="row">
+        <div class="col-lg-3 col-md-3"></div>
+        <div class="col-lg-7 col-md-7">
+          <h1>Your Query has been recorded.</h1>
+          <h3>We will get back to you soon.</h3>
+          <h5>
+            Click <a href="http://localhost/Website">here</a> to go back to home
+          </h5>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="page-footer font-small pt-4">
+      <div class="container-fluid text-center text-md-left">
+        <div class="row">
+          <div class="col-md-6 mt-md-0 mt-3">
+            <h5 class="text-uppercase">E-com Photo Production</h5>
+            <p>
+              E-com Photo Production is the photography and editing startup
+              based in Delhi. We have a wide range of services available for our
+              customers essentially <strong>Photography</strong>,<strong>
+                Image Editing</strong
+              >
+              and considerably more.
+            </p>
+          </div>
+
+          <hr class="clearfix w-100 d-md-none pb-3" />
+          <div class="col-md-3 mb-md-0 mb-3">
+            <h5 class="text-uppercase">Site</h5>
+
+            <ul class="list-unstyled">
+              <li>
+                <a onclick="scrollToAbout_response()">About Us</a>
+              </li>
+              <li>
+                <a onclick="scrollToServices_response()" id="services_linkf"
+                  >Services</a
+                >
+              </li>
+              <li>
+                <a onclick="scrollToContact_response()" id="contactus_linkf"
+                  >Contact Us</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-md-3 mb-md-0 mb-3">
+            <h5 class="text-uppercase">Our Services</h5>
+
+            <ul class="list-unstyled">
+              <li>
+                <a
+                  onclick="scrollToServices_response()"
+                  id="photographyworksamples"
+                  >Photography Services</a
+                >
+              </li>
+              <li>
+                <a onclick="scrollToServices_response()" id="editingworksamples"
+                  >Image Editing Services</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Copyright -->
+      <div class="footer-copyright text-center py-3 copyright">
+        <i class="far fa-copyright"></i> 2020 Copyright:
+        <a href="https://ecomphotoproduction.in/">ecomphotoproduction.in</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+
+    <script src="js/app.js"></script>
+    <script src="js/response.js"></script>
+  </body>
+</html>
